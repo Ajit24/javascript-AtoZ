@@ -10,7 +10,8 @@ function App() {
       {/* <HideAndShowPassword/> */}
        {/* <CRUD/> */}
        {/* <AddDynamicInput/> */}
-       <GetApiCall/>
+       {/* <GetApiCall/> */}
+       
     </div>
   );
 }
