@@ -9,9 +9,9 @@ function App() {
   return (
     <div className="App">
       {/* <HideAndShowPassword/> */}
-       {/* <CRUD/> */}
+        {/* <CRUD/> */}
        {/* <AddDynamicInput/> */}
-       <GetApiCall/>
+       {/* <GetApiCall/> */}
        {/* <ImageUpload/> */}
          
     
