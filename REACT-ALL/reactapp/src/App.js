@@ -5,6 +5,7 @@ import CRUD from './components/CRUD/CRUD';
 import AddDynamicInput from './components/AddDynamicInput/AddDynamicInput';
 import GetApiCall from './components/GetApiCall/GetApiCall';
 //import ImageUpload from './components/imageUpload/imageUpload';
+import SearchBar from './components/SearchBar/SearchBar';
 function App() {
   return (
     <div className="App">
@@ -13,7 +14,7 @@ function App() {
        {/* <AddDynamicInput/> */}
        {/* <GetApiCall/> */}
        {/* <ImageUpload/> */}
-         
+         <SearchBar/>
     
        
     </div>
