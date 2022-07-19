@@ -4,7 +4,7 @@ import HideAndShowPassword from './components/HideAndShowPassword/HideAndShowPas
 import CRUD from './components/CRUD/CRUD';
 import AddDynamicInput from './components/AddDynamicInput/AddDynamicInput';
 import GetApiCall from './components/GetApiCall/GetApiCall';
-import ImageUpload from './components/imageUpload/imageUpload';
+//import ImageUpload from './components/imageUpload/imageUpload';
 function App() {
   return (
     <div className="App">
@@ -12,7 +12,9 @@ function App() {
        {/* <CRUD/> */}
        {/* <AddDynamicInput/> */}
        {/* <GetApiCall/> */}
-       <ImageUpload/>
+       {/* <ImageUpload/> */}
+         
+    
        
     </div>
   );
