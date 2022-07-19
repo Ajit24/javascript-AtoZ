@@ -6,6 +6,7 @@ import AddDynamicInput from './components/AddDynamicInput/AddDynamicInput';
 import GetApiCall from './components/GetApiCall/GetApiCall';
 //import ImageUpload from './components/imageUpload/imageUpload';
 import SearchBar from './components/SearchBar/SearchBar';
+import GetInputBoxValue from './components/GetInputBoxValue/GetInputBoxValue';
 function App() {
   return (
     <div className="App">
@@ -14,8 +15,8 @@ function App() {
        {/* <AddDynamicInput/> */}
        {/* <GetApiCall/> */}
        {/* <ImageUpload/> */}
-         <SearchBar/>
-    
+         {/* <SearchBar/> */}
+    <GetInputBoxValue/>
        
     </div>
   );
