@@ -8,6 +8,7 @@ import GetApiCall from './components/GetApiCall/GetApiCall';
 import SearchBar from './components/SearchBar/SearchBar';
 import GetInputBoxValue from './components/GetInputBoxValue/GetInputBoxValue';
 import Form from './components/FormValidation/Form';
+import TextSlider from './components/TextSlider/TextSlider';
 function App() {
   return (
     <div className="App">
@@ -18,7 +19,8 @@ function App() {
        {/* <ImageUpload/> */}
          {/* <SearchBar/> */}
     {/* <GetInputBoxValue/> */}
-    <Form/>
+    {/* <Form/> */}
+    <TextSlider/>
        
     </div>
   );
