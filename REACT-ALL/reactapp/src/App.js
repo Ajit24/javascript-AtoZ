@@ -7,6 +7,7 @@ import GetApiCall from './components/GetApiCall/GetApiCall';
 //import ImageUpload from './components/imageUpload/imageUpload';
 import SearchBar from './components/SearchBar/SearchBar';
 import GetInputBoxValue from './components/GetInputBoxValue/GetInputBoxValue';
+import Form from './components/FormValidation/Form';
 function App() {
   return (
     <div className="App">
@@ -16,7 +17,8 @@ function App() {
        {/* <GetApiCall/> */}
        {/* <ImageUpload/> */}
          {/* <SearchBar/> */}
-    <GetInputBoxValue/>
+    {/* <GetInputBoxValue/> */}
+    <Form/>
        
     </div>
   );
