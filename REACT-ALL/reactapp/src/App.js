@@ -10,6 +10,7 @@ import GetInputBoxValue from './components/GetInputBoxValue/GetInputBoxValue';
 import Form from './components/FormValidation/Form';
 import TextSlider from './components/TextSlider/TextSlider';
 import LocalStorage from './components/LocalStorage/LocalStorage';
+import LoginWithLocalStorage from './components/LoginWithLocalstorage/LoginWithLocalstorage';
 function App() {
   return (
     <div className="App">
@@ -22,8 +23,8 @@ function App() {
     {/* <GetInputBoxValue/> */}
     {/* <Form/> */}
     {/* <TextSlider/> */}
-    <LocalStorage/>
-       
+    {/* <LocalStorage/> */}
+       <LoginWithLocalStorage/>
     </div>
   );
 }
