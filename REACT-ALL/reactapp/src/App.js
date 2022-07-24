@@ -9,6 +9,7 @@ import SearchBar from './components/SearchBar/SearchBar';
 import GetInputBoxValue from './components/GetInputBoxValue/GetInputBoxValue';
 import Form from './components/FormValidation/Form';
 import TextSlider from './components/TextSlider/TextSlider';
+import LocalStorage from './components/LocalStorage/LocalStorage';
 function App() {
   return (
     <div className="App">
@@ -20,7 +21,8 @@ function App() {
          {/* <SearchBar/> */}
     {/* <GetInputBoxValue/> */}
     {/* <Form/> */}
-    <TextSlider/>
+    {/* <TextSlider/> */}
+    <LocalStorage/>
        
     </div>
   );
