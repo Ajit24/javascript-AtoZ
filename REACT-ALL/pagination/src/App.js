@@ -10,10 +10,16 @@ const App = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(10);
 
+  let limit = 5;
+
   useEffect(() => {
     const fetchPosts = async () => {
       setLoading(true);
-      const res = await axios.get('https://jsonplaceholder.typicode.com/posts');
+       const res = await axios.get('https://jsonplaceholder.typicode.com/posts');
+      //const res = await axios.get(`https://jsonplaceholder.typicode.com/posts?_page=3&_limit=${limit}`);
+
+      //// `https://jsonplaceholder.typicode.com/comments?_page=1&_limit=${limit}`
+      // // `https://jsonplaceholder.typicode.com/comments?_page=${currentPage}&_limit=${limit}
       setPosts(res.data);
       setLoading(false);
     };
