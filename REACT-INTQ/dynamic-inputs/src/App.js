@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
 
 function App() {
+  const [inputs, setInputs] = useState({});
+  const getInputValues = (data) => {
+    let { name, value } = data.target;
+    let input = { [name]: value };
+    setInputs({ ...inputs, ...input });
+  };
+  console.log(inputs);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="input-container">
+        <input placeholder="Name" name="name" onChange={getInputValues} />
+        <input placeholder="Age" name="age" onChange={getInputValues} />
+        <input
+          placeholder="Years of Experience"
+          name="yoe"
+          onChange={getInputValues}
+        />
+      </div>
+      <button>Add New Group</button>
     </div>
   );
 }
 
 export default App;
+
+//
