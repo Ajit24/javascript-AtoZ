@@ -11,6 +11,7 @@ import Form from './components/FormValidation/Form';
 import TextSlider from './components/TextSlider/TextSlider';
 import LocalStorage from './components/LocalStorage/LocalStorage';
 import LoginWithLocalStorage from './components/LoginWithLocalstorage/LoginWithLocalstorage';
+import DarkToLight from './components/DarkToLight/DarkToLight';
 function App() {
   return (
     <div className="App">
@@ -24,7 +25,8 @@ function App() {
     {/* <Form/> */}
     {/* <TextSlider/> */}
     {/* <LocalStorage/> */}
-       <LoginWithLocalStorage/>
+       {/* <LoginWithLocalStorage/> */}
+       <DarkToLight/>
     </div>
   );
 }
