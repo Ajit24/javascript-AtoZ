@@ -12,6 +12,7 @@ import TextSlider from './components/TextSlider/TextSlider';
 import LocalStorage from './components/LocalStorage/LocalStorage';
 import LoginWithLocalStorage from './components/LoginWithLocalstorage/LoginWithLocalstorage';
 import DarkToLight from './components/DarkToLight/DarkToLight';
+import TranslationEngToTamil from './components/TranslationEngToTam/TranslationEngToTam';
 function App() {
   return (
     <div className="App">
@@ -26,7 +27,8 @@ function App() {
     {/* <TextSlider/> */}
     {/* <LocalStorage/> */}
        {/* <LoginWithLocalStorage/> */}
-       <DarkToLight/>
+       {/* <DarkToLight/> */}
+       <TranslationEngToTamil/>
     </div>
   );
 }
